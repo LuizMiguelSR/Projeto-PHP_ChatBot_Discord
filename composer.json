@@ -1,0 +1,19 @@
+{
+    "name": "luizm/discord_php_bot",
+    "description": "Um bot de estudo utilizando php",
+    "type": "ject",
+    "autoload": {
+        "psr-4": {
+            "Luizm\\DiscordPhpBot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LuizMiguelSR",
+            "email": "luizmiguel.srodrigues@gmail.com"
+        }
+    ],
+    "require": {
+        "team-reflex/discord-php": "^7.3"
+    }
+}
